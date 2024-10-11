@@ -4,13 +4,13 @@ Neon is built from components that must be assembled together to be useful.
 
 ## Overview
 
-Neon has a very strong focus on flexibility. It made up of a collection of components, not all of which you might need. A big part of getting started is understanding how to pick the components that will best work with your system.
+Neon has a very strong focus on flexibility. It is made up of a collection of components, not all of which you might need. A big part of getting started is understanding how to pick the components that will best work with your system.
 
 There are three important factors in deciding how to integrate Neon into your system:
 
-- the text view you use
-- the kind of styling do you need to apply
-- how you map text data to style
+- The text view you use
+- The kind of styling you need to apply
+- How you map text data to style
 
 ## Text System
 
