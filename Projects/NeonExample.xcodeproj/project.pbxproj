@@ -250,7 +250,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9E076022BB30503005ED81E /* NeonExample.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 5GXRS83U4Z;
+				DEVELOPMENT_TEAM = F2W5BX3D7F;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -270,7 +270,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9E076022BB30503005ED81E /* NeonExample.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 5GXRS83U4Z;
+				DEVELOPMENT_TEAM = F2W5BX3D7F;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

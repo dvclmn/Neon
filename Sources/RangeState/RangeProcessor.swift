@@ -54,7 +54,7 @@ public final class RangeProcessor {
 	///
 	/// This value is one greater than the maximum valid location.
 	///
-	/// > Warning: Be careful with this value. If there are pending changes (`hasPendingChanges == true`), this value might not refect the current state of the content.
+	/// > Warning: Be careful with this value. If there are pending changes (`hasPendingChanges == true`), this value might not reflect the current state of the content.
 	public private(set) var processedUpperBound: Int = 0
 	private var targetProcessingLocation: Int = -1
 	private var version = 0
