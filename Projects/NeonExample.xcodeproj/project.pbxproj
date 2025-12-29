@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C94ACAC92BB3389B0041F2B7 /* big_test.code in Resources */ = {isa = PBXBuildFile; fileRef = C94ACAC82BB3389B0041F2B7 /* big_test.code */; };
-		C9BFA1982BB5D9FB00E86487 /* TreeSitterMarkdown in Frameworks */ = {isa = PBXBuildFile; productRef = C9BFA1972BB5D9FB00E86487 /* TreeSitterMarkdown */; };
 		C9BFA19A2BB5DA7600E86487 /* big_test.md in Resources */ = {isa = PBXBuildFile; fileRef = C9BFA1992BB5DA7600E86487 /* big_test.md */; };
 		C9BFA19C2BB5FCF800E86487 /* test.code in Resources */ = {isa = PBXBuildFile; fileRef = C9BFA19B2BB5FCF800E86487 /* test.code */; };
-		C9C7DEE42BB307A700AC4F9D /* Neon in Frameworks */ = {isa = PBXBuildFile; productRef = C9C7DEE32BB307A700AC4F9D /* Neon */; };
 		C9C7DEE62BB307AA00AC4F9D /* TreeSitterSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C9C7DEE52BB307AA00AC4F9D /* TreeSitterSwift */; };
 		C9C7DEE82BB307DD00AC4F9D /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C7DEE72BB307DD00AC4F9D /* TextViewController.swift */; };
 		C9C7DEEB2BB3088A00AC4F9D /* NSUI in Frameworks */ = {isa = PBXBuildFile; productRef = C9C7DEEA2BB3088A00AC4F9D /* NSUI */; };
@@ -20,10 +18,11 @@
 		C9E075F42BB3040B005ED81E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E075F32BB3040B005ED81E /* ContentView.swift */; };
 		C9E075F62BB3040C005ED81E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E075F52BB3040C005ED81E /* Assets.xcassets */; };
 		C9E075FA2BB3040C005ED81E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E075F92BB3040C005ED81E /* Preview Assets.xcassets */; };
+		F677FF082F025DC700DB39D1 /* Neon in Frameworks */ = {isa = PBXBuildFile; productRef = F677FF072F025DC700DB39D1 /* Neon */; };
+		F677FF0A2F025DD400DB39D1 /* TreeSitterMarkdown in Frameworks */ = {isa = PBXBuildFile; productRef = F677FF092F025DD400DB39D1 /* TreeSitterMarkdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5077D7FF2B08D1F1000A15B8 /* Neon */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Neon; path = ..; sourceTree = "<group>"; };
 		C94ACAC82BB3389B0041F2B7 /* big_test.code */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big_test.code; sourceTree = "<group>"; };
 		C9BFA1992BB5DA7600E86487 /* big_test.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = big_test.md; sourceTree = "<group>"; };
 		C9BFA19B2BB5FCF800E86487 /* test.code */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.code; sourceTree = "<group>"; };
@@ -33,12 +32,12 @@
 		C9E075F12BB3040B005ED81E /* NeonExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonExampleApp.swift; sourceTree = "<group>"; };
 		C9E075F32BB3040B005ED81E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C9E075F52BB3040C005ED81E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C9E075F72BB3040C005ED81E /* NeonExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeonExample.entitlements; sourceTree = "<group>"; };
 		C9E075F92BB3040C005ED81E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9E075FF2BB30482005ED81E /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		C9E076002BB304C7005ED81E /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
 		C9E076012BB304E7005ED81E /* Multiplatform.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Multiplatform.xcconfig; sourceTree = "<group>"; };
 		C9E076022BB30503005ED81E /* NeonExample.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = NeonExample.xcconfig; sourceTree = "<group>"; };
+		F6ADFA922F025EA400FE172C /* NeonExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeonExample.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9BFA1982BB5D9FB00E86487 /* TreeSitterMarkdown in Frameworks */,
-				C9C7DEE42BB307A700AC4F9D /* Neon in Frameworks */,
+				F677FF0A2F025DD400DB39D1 /* TreeSitterMarkdown in Frameworks */,
+				F677FF082F025DC700DB39D1 /* Neon in Frameworks */,
 				C9C7DEEB2BB3088A00AC4F9D /* NSUI in Frameworks */,
 				C9C7DEE62BB307AA00AC4F9D /* TreeSitterSwift in Frameworks */,
 			);
@@ -66,7 +65,6 @@
 		C9A60F7928C68FD9006883EC = {
 			isa = PBXGroup;
 			children = (
-				5077D7FF2B08D1F1000A15B8 /* Neon */,
 				C9E075FE2BB3044C005ED81E /* Configurations */,
 				C9E075F02BB3040B005ED81E /* NeonExample */,
 				C9A60F8328C68FD9006883EC /* Products */,
@@ -92,10 +90,10 @@
 				C9E075F12BB3040B005ED81E /* NeonExampleApp.swift */,
 				C9E075F32BB3040B005ED81E /* ContentView.swift */,
 				C9E075F52BB3040C005ED81E /* Assets.xcassets */,
-				C9E075F72BB3040C005ED81E /* NeonExample.entitlements */,
 				C9E075F82BB3040C005ED81E /* Preview Content */,
 				C9C7DEE72BB307DD00AC4F9D /* TextViewController.swift */,
 				C9C7DEF12BB30DCE00AC4F9D /* TextView.swift */,
+				F6ADFA922F025EA400FE172C /* NeonExample.entitlements */,
 			);
 			path = NeonExample;
 			sourceTree = "<group>";
@@ -135,14 +133,13 @@
 			dependencies = (
 				C9C7DEED2BB3089300AC4F9D /* PBXTargetDependency */,
 				C9C7DEE22BB307A100AC4F9D /* PBXTargetDependency */,
-				C9C7DEE02BB3079E00AC4F9D /* PBXTargetDependency */,
 			);
 			name = NeonExample;
 			packageProductDependencies = (
-				C9C7DEE32BB307A700AC4F9D /* Neon */,
 				C9C7DEE52BB307AA00AC4F9D /* TreeSitterSwift */,
 				C9C7DEEA2BB3088A00AC4F9D /* NSUI */,
-				C9BFA1972BB5D9FB00E86487 /* TreeSitterMarkdown */,
+				F677FF072F025DC700DB39D1 /* Neon */,
+				F677FF092F025DD400DB39D1 /* TreeSitterMarkdown */,
 			);
 			productName = NeonExample;
 			productReference = C9E075EF2BB3040B005ED81E /* NeonExample.app */;
@@ -173,7 +170,6 @@
 			);
 			mainGroup = C9A60F7928C68FD9006883EC;
 			packageReferences = (
-				C9A60F9228C6903E006883EC /* XCRemoteSwiftPackageReference "Neon" */,
 				C9A60F9528C6923E006883EC /* XCRemoteSwiftPackageReference "tree-sitter-swift" */,
 				C9C7DEE92BB3088A00AC4F9D /* XCRemoteSwiftPackageReference "nsui" */,
 				C9BFA1962BB5D9FB00E86487 /* XCRemoteSwiftPackageReference "tree-sitter-markdown" */,
@@ -217,10 +213,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C9C7DEE02BB3079E00AC4F9D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = C9C7DEDF2BB3079E00AC4F9D /* Neon */;
-		};
 		C9C7DEE22BB307A100AC4F9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			productRef = C9C7DEE12BB307A100AC4F9D /* TreeSitterSwift */;
@@ -250,7 +242,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9E076022BB30503005ED81E /* NeonExample.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = F2W5BX3D7F;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -261,6 +256,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,6,7";
 				TVOS_DEPLOYMENT_TARGET = 16.0;
 				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -270,7 +271,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9E076022BB30503005ED81E /* NeonExample.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = F2W5BX3D7F;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -281,6 +285,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,6,7";
 				TVOS_DEPLOYMENT_TARGET = 16.0;
 				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -310,14 +320,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C9A60F9228C6903E006883EC /* XCRemoteSwiftPackageReference "Neon" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ChimeHQ/Neon.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 		C9A60F9528C6923E006883EC /* XCRemoteSwiftPackageReference "tree-sitter-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/alex-pinkus/tree-sitter-swift/";
@@ -345,25 +347,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C9BFA1972BB5D9FB00E86487 /* TreeSitterMarkdown */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C9BFA1962BB5D9FB00E86487 /* XCRemoteSwiftPackageReference "tree-sitter-markdown" */;
-			productName = TreeSitterMarkdown;
-		};
-		C9C7DEDF2BB3079E00AC4F9D /* Neon */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C9A60F9228C6903E006883EC /* XCRemoteSwiftPackageReference "Neon" */;
-			productName = Neon;
-		};
 		C9C7DEE12BB307A100AC4F9D /* TreeSitterSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C9A60F9528C6923E006883EC /* XCRemoteSwiftPackageReference "tree-sitter-swift" */;
 			productName = TreeSitterSwift;
-		};
-		C9C7DEE32BB307A700AC4F9D /* Neon */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C9A60F9228C6903E006883EC /* XCRemoteSwiftPackageReference "Neon" */;
-			productName = Neon;
 		};
 		C9C7DEE52BB307AA00AC4F9D /* TreeSitterSwift */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -379,6 +366,15 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C9C7DEE92BB3088A00AC4F9D /* XCRemoteSwiftPackageReference "nsui" */;
 			productName = NSUI;
+		};
+		F677FF072F025DC700DB39D1 /* Neon */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Neon;
+		};
+		F677FF092F025DD400DB39D1 /* TreeSitterMarkdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9BFA1962BB5D9FB00E86487 /* XCRemoteSwiftPackageReference "tree-sitter-markdown" */;
+			productName = TreeSitterMarkdown;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
